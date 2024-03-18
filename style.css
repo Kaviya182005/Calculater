@@ -1,0 +1,87 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://media.istockphoto.com/id/1419844586/vector/stem-blue-horizontal-frame-vector-education-bright-illustration.jpg?s=612x612&w=0&k=20&c=-A1eYLYulujNsiM26lkVy7qMT_Hp82N5EtKHSFRmigk=);
+    text-align: center;
+}
+.container{
+    border: 3px solid red;
+    width: 340px;
+    height: 440px;
+    background-color: violet;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+fieldset{
+    border: none;
+    color: white;
+}
+hr{
+    border: 1px solid brown;
+}
+.input{
+    height: 50px;
+    width: 250px;
+    border: none;
+    background: transparent;
+}
+button{
+    border: none;
+}
+button:hover{
+    background-color: orange;
+
+}
+.operation-button{
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(116, 103, 103);
+    padding:10px;
+}
+.equaloperation-button{
+    width: 145px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    padding:10px;
+    
+}
+.number-button{
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(166, 160, 160);
+    padding:10px;
+}
+.number-button:hover{
+    background-color: green;
+}
+.dot-button{
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    background-color:  rgb(166, 160, 160);
+    padding:10px;
+}
+.dot-button:hover{
+    background-color: rgb(9, 138, 9);
+}
+.deletewhole-button{
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(116, 103, 103);
+    padding:10px;
+}
+.delete-button{
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(116, 103, 103);
+    padding:10px;
+}
